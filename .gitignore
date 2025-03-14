@@ -1,0 +1,49 @@
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Environment variables
+.env*
+!.env.example
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.gz
+
+# TypeScript cache
+*.tsbuildinfo
+
+# MacOS system files
+.DS_Store
+
+# Vercel deployment cache
+.vercel
+
+# Lint/formatting cache
+.eslintcache
+.prettier*
+
+# Coverage files
+coverage/
+
+# Storybook
+storybook-static/
+
+# Test results
+jest.cache/
+jest.config.js
