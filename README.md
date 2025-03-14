@@ -1,11 +1,12 @@
-# "Needle in the Hay" short film
-- A teaser film for the Feature Film coming 2026
+# React + Vite
 
-- "In a gritty, dimly lit apartment, a washed-up musician teeters on the edge of self-destruction, haunted by his past and crushed by his present. When his fed-up landlord storms in demanding overdue rent his loyal but exasperated Music Producer has to decide whether to get involved or not. Needle in the Hay is a raw, tension-filled drama about broken dreams, fractured relationships, and the fragile hope for redemption."
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## SUPPORT
+Currently, two official plugins are available:
 
-= *Seed and Spark* crowdfunding campaign
-  - https://seedandspark.com/fund/needle-in-the-hay#story
-- Instagram: COMING SOON
-- 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
