@@ -4,7 +4,29 @@
   padding: 2rem;
   text-align: center;
 }
-
+@font-face {
+  font-family: 'allAges';
+  src: url('./fonts/AllAgesDemo-2DPX.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+	
+}
+a:hover {
+	color: red;
+}
+body {
+	font-size: 1.2em;
+	font-family: 'allAges', sans-serif;
+}
+ul {
+	list-style: none;
+}
+.call_to_action {
+	font-size: 2em;
+}
+/*STOCK BULLSHIT*/
 .logo {
   height: 6em;
   padding: 1.5em;
