@@ -12,7 +12,7 @@ function App() {
 			<h2>A short film teaser</h2>
 
 			<img
-			src="/assets/nith-placeholder.png"
+			src="assets/nith-placeholder.png"
 			alt="nith image"
 			/>
 
