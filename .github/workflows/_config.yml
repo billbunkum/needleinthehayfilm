@@ -1,5 +1,6 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+title: Needle in the Hay Short Film
+description: A short film
 
 on:
   # Runs on pushes targeting the default branch
