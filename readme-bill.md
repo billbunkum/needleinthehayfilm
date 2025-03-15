@@ -15,4 +15,19 @@ localhost:5173
 # Troubleshooting
 *Images* not showing
 - https://stackoverflow.com/questions/68758939/github-pages-vite-js-build-not-showing-the-images
+
 Seems that trailing slashes and dots do not work, e.g. `/assets/some-image.jpg` -> `assets/some-image.jpg`
+
+*module* not loading
+- https://stackoverflow.com/questions/61899112/github-pages-and-react-app-not-working-regardless-of-methods
+Seems that *gh-pages* needs to be downloaded then added to `package.json`
+`$ npm install gh-pages --save -dev`
+
+Within package.json:
+`"homepage": "<GITHUB_USERNAM>.github.io/<REPO_NAME>",`
+
+In the *scripts* section:
+`"predeploy": "npm run build",`
+`"deploy": "gh-pages -d build",`
+
+~
