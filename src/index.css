@@ -5,7 +5,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +16,12 @@
   font-weight: normal;
   font-style: normal;
 }
+.merriweather-sans-body-text {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 a {
 	
 }
@@ -24,13 +29,13 @@ a:hover {
 	color: red;
 }
 body {
-  margin: 0;
   display: flex;
-  place-items: center;
+  font-family: "Merriweather Sans", sans-serif;
+	font-size: 1.2em;
+  margin: 0;
   min-width: 320px;
   min-height: 100vh;
-	font-size: 1.2em;
-	font-family: 'allAges', sans-serif;
+  place-items: center;
 }
 button {
   border-radius: 8px;
@@ -54,6 +59,9 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+	h1, h2 {
+		font-family: 'allAges', sans-serif;
+	}
 ul {
 	list-style: none;
 }
