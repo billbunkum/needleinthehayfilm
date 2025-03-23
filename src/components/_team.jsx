@@ -7,6 +7,10 @@ function Team() {
 				<h1>Meet the Team</h1>
 				<ul>
 					<li><h2>Our Director</h2></li>
+					<img
+						src=""
+						alt="Lucy Page"
+					/>
 					<li><p>
 Lucy Page is a Los Angeles-based actress and first-time director, known for her fresh approach to filmmaking. With a background in acting, she brings emotional depth to her projects. As a director, Lucy focuses on authentic storytelling, collaborating closely with actors to create compelling, character-driven narratives.</p>
 					</li>

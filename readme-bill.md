@@ -4,6 +4,9 @@ References:
 - https://react.dev/learn/build-a-react-app-from-scratch
 - 
 
+## Root dir
+Same as where index.html is located. Not src/, public/, and so forth.
+
 ## A build tool
 npm create vite@latest my-app -- --template react
 
@@ -11,6 +14,17 @@ npm create vite@latest my-app -- --template react
 `$ nvm use lts/iron`
 `$ npm run dev`
 localhost:5173
+
+## Variables
+.env -> apparently, ViteJS automatically recognizes these.
+EXAMPLE:
+w/in .env:
+`     VITE_API_URL=https://api.example.com`
+`     VITE_API_KEY=your_api_key`
+usage:
+`     console.log(import.meta.env.VITE_API_URL); // Accessing the API URL`
+code:
+`     <p>API URL: {{ import.meta.env.VITE_API_URL }}</p>`
 
 # Troubleshooting
 *Images* not showing
