@@ -15,11 +15,13 @@ function App() {
 			<h2>A short film teaser</h2>
 			<Navigation />
 
-			<img
+			<div className="splash_section">
+				<img
 //				src="assets/nith-placeholder.png"
-				src={`${ASSETS}nith-placeholder.png`}
-				alt="nith image"
-			/>
+					src={`${ASSETS}nith-placeholder.png`}
+					alt="nith image"
+				/>
+			</div>
 
 			<Teaser />
 
