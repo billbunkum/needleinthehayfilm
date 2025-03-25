@@ -10,6 +10,10 @@
 .team_section {
 	background-color: grey;
 }
+	.headshots {
+		width: 400px
+	}
+
 /*STOCK BULLSHIT*/
 .logo {
   height: 6em;
