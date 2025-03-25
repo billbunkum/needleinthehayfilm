@@ -47,7 +47,7 @@ Morgan Chan is an experienced audio engineer based in Los Angeles. Specializing 
 					<li><h2>Mickey Galie</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/headshots/mickey-galie-headshot.jpg"
+						src="assets/images/headshots/mickey-galie-headshot.JPG"
 						alt="Mickey Galie"
 						/>
 						<p>
