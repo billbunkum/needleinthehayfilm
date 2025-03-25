@@ -17,8 +17,8 @@ function App() {
 
 			<div className="splash_section">
 				<img
-//				src="assets/nith-placeholder.png"
-					src={`${ASSETS}nith-placeholder.png`}
+				src="assets/nith-placeholder.png"
+//					src={`${ASSETS}nith-placeholder.png`}
 					alt="nith image"
 				/>
 			</div>
