@@ -4,9 +4,25 @@
   padding: 2rem;
   text-align: center;
 }
+a.button {
+	padding: 1px 6px;
+	border: 3px outset buttonborder;
+	border-radius: 3px;
+	color: buttontext;
+	background-color: grey;
+	text-decoration: none;
+}
+	a.button:hover {
+		background-color: lightgrey;
+	}
 .call_to_action {
+	display: flex;
+	justify-content: center;	
 	font-size: 2em;
 }
+	ul.call_to_action li {
+		margin: .2em;
+	}
 .splash_section img {
 	width: 800px;
 }
