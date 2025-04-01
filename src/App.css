@@ -139,7 +139,7 @@ a.button {
 	}
 	.headshots {
 /*		width: 400px*/
-		width: 70%;
+		width: 40%;
 	}	
 	@media only screen and (max-device-width: 481px){
 		.headshots {
