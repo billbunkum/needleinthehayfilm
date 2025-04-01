@@ -79,6 +79,7 @@ h1 {
 	}
 ul {
 	list-style: none;
+	padding-left: 0px; /* REMOVES DEFAULT padding FOR BULLETS */
 }
 li {
 }
@@ -100,33 +101,39 @@ li {
 	flex-direction: column;
 	justify-content: center;
 }
-	/* iPhone */
-	@media only screen and (max-device-width: 481px) {
-		
-	}
 .splash_section img {
 	width: 50%;
 }
 	/* iPhone */
-	@media only screen and (min-device-width: 480px){
-		width: 90%;
+	@media only screen and (max-device-width: 481px) {
+		.splash_section img {
+			margin-bottom: 2em;
+			width: 90%;
+		}
 	}	
 /* _team */
 .team_section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 2em;
-	margin-right: 2em;
-	width: auto;
 }
+	.team_section p {
+		margin-left: 2em;
+		margin-right: 2em;
+		text-align: left;
+	}
+	@media only screen and (max-device-width: 481px) {
+		.team_section p {
+			margin: 0em;
+		}
+	}
 	.headshots {
 /*		width: 400px*/
 		width: 70%;
 	}	
-	@media only screen and (min-device-width: 480px){
+	@media only screen and (max-device-width: 481px){
 		.headshots {
-			width: 30%;
+			width: 90%;
 		}
 	}	
 

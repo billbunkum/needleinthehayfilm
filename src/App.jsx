@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Footer from './components/_footer.jsx'
 import Navigation from './components/_navigation.jsx'
 import Team from './components/_team.jsx'
 import Teaser from './components/_teaser.jsx'
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
 		<div className="main_container">
-      <h1>Needle in the Hay</h1>
+      <h1 id="top">Needle in the Hay</h1>
 			<h2>A short film teaser</h2>
 {/*			<Navigation />*/}
 
@@ -26,6 +27,8 @@ function App() {
 			<Teaser />
 
 			<Team />		
+			
+			<Footer />
 		</div>
     </>
   )
