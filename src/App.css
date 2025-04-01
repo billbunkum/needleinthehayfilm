@@ -41,17 +41,7 @@ body {
 a:hover {
 	color: red;
 }
-a.button {
-	padding: 1px 6px;
-	border: 3px outset buttonborder;
-	border-radius: 3px;
-	color: buttontext;
-	background-color: grey;
-	text-decoration: none;
-}
-	a.button:hover {
-		background-color: lightgrey;
-	}
+/*
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -70,6 +60,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+*/
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -93,6 +84,25 @@ li {
 }
 	ul.call_to_action li {
 		margin: .2em;
+	}
+a.button {
+	padding: 1px 6px;
+	border: 3px outset buttonborder;
+	border-radius: 3px;
+	color: buttontext;
+	background-color: grey;
+	text-decoration: none;
+}
+	a.button:hover {
+		background-color: lightgrey;
+	}
+	a.button:active {
+		background-color: lightgrey;
+	}
+	@media only screen and (max-device-width: 481px) { 
+		.call_to_action {
+			flex-direction: column;
+		}
 	}
 
 /* App */

@@ -15,7 +15,7 @@ function App() {
 		<div className="main_container">
       <h1 id="top">Needle in the Hay</h1>
 			<h2>A short film teaser</h2>
-{/*			<Navigation />*/}
+			<Navigation />
 
 			<div className="splash_section">
 				<img
