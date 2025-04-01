@@ -15,6 +15,8 @@ function App() {
 		<div className="main_container">
       <h1 id="top">Needle in the Hay</h1>
 			<h2>A film about Addiction, Suicide, & Genius</h2>
+			<h3>Filming starts July 2025!</h3>
+			<h3>Crowd Funding starts June 2025</h3>
 			<Navigation />
 
 			<div className="splash_section">
