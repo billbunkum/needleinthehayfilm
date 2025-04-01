@@ -11,14 +11,14 @@ function App() {
 
   return (
     <>
+		<div className="main_container">
       <h1>Needle in the Hay</h1>
 			<h2>A short film teaser</h2>
-			<Navigation />
+{/*			<Navigation />*/}
 
 			<div className="splash_section">
 				<img
 				src="assets/nith-placeholder.png"
-//					src={`${ASSETS}nith-placeholder.png`}
 					alt="nith image"
 				/>
 			</div>
@@ -26,6 +26,7 @@ function App() {
 			<Teaser />
 
 			<Team />		
+		</div>
     </>
   )
 }

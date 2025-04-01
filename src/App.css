@@ -1,8 +1,45 @@
+/* App.css -> global */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'allAges';
+  src: url('/needleinthehayfilm/fonts/AllAgesDemo-2DPX.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.merriweather-sans-body-text {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+body {
+  display: flex;
+  font-family: "Merriweather Sans", sans-serif;
+	font-size: 1.2em;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  place-items: center;
+}
+a:hover {
+	color: red;
 }
 a.button {
 	padding: 1px 6px;
@@ -15,57 +52,101 @@ a.button {
 	a.button:hover {
 		background-color: lightgrey;
 	}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+	h1, h2 {
+		font-family: 'allAges', sans-serif;
+	}
+ul {
+	list-style: none;
+}
+li {
+}
+
+/* _navigation */
 .call_to_action {
 	display: flex;
 	justify-content: center;	
 	font-size: 2em;
+	width: auto;
 }
 	ul.call_to_action li {
 		margin: .2em;
 	}
-.splash_section img {
-	width: 800px;
+
+/* App */
+.main_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
+	/* iPhone */
+	@media only screen and (max-device-width: 481px) {
+		
+	}
+.splash_section img {
+	width: 50%;
+}
+	/* iPhone */
+	@media only screen and (min-device-width: 480px){
+		width: 90%;
+	}	
+/* _team */
 .team_section {
-/*	background-color: grey;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 2em;
+	margin-right: 2em;
+	width: auto;
 }
 	.headshots {
-		width: 400px
-	}
+/*		width: 400px*/
+		width: 70%;
+	}	
+	@media only screen and (min-device-width: 480px){
+		.headshots {
+			width: 30%;
+		}
+	}	
 
-/*STOCK BULLSHIT*/
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* PAGE COLORS */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-  to {
-    transform: rotate(360deg);
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+/* RESPONSIVE */
 
-.card {
-  padding: 2em;
-}
+/* iPhone */
+@media only screen and (min-device-width: 480px){
 
-.read-the-docs {
-  color: #888;
 }
