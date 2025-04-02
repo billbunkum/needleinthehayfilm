@@ -14,7 +14,7 @@ function Navigation() {
 				<li>
 					<a
 						className="button"
-						href="https://seedandspark.com/fund/needle-in-the-hay?token=c0d2cac3031d07d83ccfde4abb6f78da050ad83b808c031bb538173e6b17f6f3#story">Info & Support
+						href="https://seedandspark.com/fund/needle-in-the-hay?token=c0d2cac3031d07d83ccfde4abb6f78da050ad83b808c031bb538173e6b17f6f3#story">Information 
 					</a>
 				</li>
 				<li>
