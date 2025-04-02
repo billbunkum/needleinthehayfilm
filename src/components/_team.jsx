@@ -17,7 +17,7 @@ Lucy Page is a Los Angeles-based actress and first-time director, known for her 
 					<li><h2>1st AD - Adelaide Johnson</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/headshots/adelaid-johnson-headshot.png"
+						src="assets/images/headshots/adelaide-johnson-headshot.jpg"
 						alt="Adelaide Johnson"
 						/>
 						<p>
