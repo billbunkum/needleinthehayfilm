@@ -91,16 +91,31 @@ a.button {
 	flex-direction: column;
 	justify-content: center;
 }
-.splash_section img {
+/*.splash_section img {
 	width: 50%;
+}*/
+.splash_section iframe {
+	width: 100%;
+	margin-bottom: 2em;
 }
 	/* iPhone */
 	@media only screen and (max-device-width: 481px) {
-		.splash_section img {
+/*		.splash_section img {
 			margin-bottom: 2em;
 			width: 90%;
+		}*/
+		.splash_section iframe {
+			margin-bottom: 2em;
+			width: 100%;
 		}
 	}	
+.trailer {
+	width: 100vw;
+	height: 56.25vw;
+	margin: auto;
+	overflow:hidden;
+}
+
 /* _team */
 .team_section {
 	display: flex;
@@ -118,7 +133,6 @@ a.button {
 		}
 	}
 	.headshots {
-/*		width: 400px*/
 		width: 40%;
 	}	
 	@media only screen and (max-device-width: 481px){
