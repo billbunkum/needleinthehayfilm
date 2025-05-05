@@ -33,6 +33,20 @@ Adelaide Johnson is a skilled First Assistant Director based in Los Angeles. Wit
 						<p>
 Jeremiah Jordan is the founder of Top of the Bottom Entertainment, a Los Angeles-based production company. He produces digital content, hosts the TOTB Podcast, and works as a producer, director, and editor. Jeremiah is dedicated to creating engaging and insightful media while supporting creative talent through every project.</p>
 					</li>
+
+					<li><h2>Director of Photography – Ken Howl</h2></li>
+					<li><img
+						className="headshots"
+						src="assets/images/headshots/ken-howl-headshot.png"
+						alt="Ken Howl"
+						/>
+						<p>
+					Ken has over 25 years of experience in video production, contributing to both mainstream networks like Disney, Universal Studios, PBS, and MTV, and pioneering online platforms such as TheLip.TV and The
+Young Turks. His expertise spans live TV, VFX, editing, directing, producing, and set design. Ken is
+passionate about creating content that supports equality, civil rights, and education, working with a
+diverse array of public figures and organizations to deliver impactful media.</p>
+					</li>
+
 					<li><h2>Sound Engineer - Morgan Chan</h2></li>
 					<li><img
 						className="headshots"
