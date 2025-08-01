@@ -91,9 +91,18 @@ a.button {
 	flex-direction: column;
 	justify-content: center;
 }
-/*.splash_section img {
-	width: 50%;
-}*/
+.socials {
+	width: 100%;
+	max-height: 2em;
+	margin-bottom: 2em;
+}
+	.social_icon_ig {
+		margin: .2em;
+		width: 2.5em;
+	}
+	.social_icon_youtube {
+		width: 3em;
+	}
 .splash_section iframe {
 	width: 100%;
 	margin-bottom: 2em;
