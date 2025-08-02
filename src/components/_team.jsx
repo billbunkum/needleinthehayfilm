@@ -8,7 +8,7 @@ function Team() {
 					<li><h2>DIRECTOR - Lucy Page</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/headshots/lucy-page-headshot.jpg"
+						src="assets/images/headshots/lucy-page-new-headshot.jpg"
 						alt="Lucy Page"
 						/>
 						<p>
