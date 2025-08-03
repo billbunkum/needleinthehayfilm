@@ -54,6 +54,9 @@ ul {
 }
 li {
 }
+.titles_crew {
+	text-decoration: underline;
+}
 
 /* _navigation */
 .call_to_action {
@@ -95,14 +98,28 @@ a.button {
 	width: 100%;
 	max-height: 2em;
 	margin-bottom: 2em;
+	margin-left: .2em;
+	margin-right: .2em;
+}
+.social_icons:hover {
+	opacity: .9;	
 }
 	.social_icon_ig {
 		margin: .2em;
 		width: 2.5em;
 	}
 	.social_icon_youtube {
+		margin: .2em;
 		width: 3em;
 	}
+	.social_icon_imdb {
+		margin: .2em;
+		width: 3.5em;
+	}
+	.social_icon_comedy_mask {
+		width: 2.3em;
+	}
+
 .splash_section iframe {
 	width: 100%;
 	margin-bottom: 2em;
@@ -149,6 +166,9 @@ a.button {
 			width: 90%;
 		}
 	}	
+	.team_section h2 {
+		text-decoration: underline;
+	}
 
 /* PAGE COLORS */
 @media (prefers-color-scheme: light) {
