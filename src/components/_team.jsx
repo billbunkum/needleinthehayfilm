@@ -1,3 +1,5 @@
+import Lucy from './people/_lucy.jsx'
+import WilliamProducer from './people/_william_producer.jsx'
 
 function Team() {
 	return (
@@ -5,50 +7,8 @@ function Team() {
 			<div className="team_section">
 				<h1>Meet the Team</h1>
 				<ul>
-					<li><h2>DIRECTOR - Lucy Page</h2></li>
-					<li><img
-						className="headshots"
-						src="assets/images/headshots/lucy-page-new-headshot.jpg"
-						alt="Lucy Page"
-						/>
-						<p>
-Lucy Page is a Los Angeles-based actress and first-time director, known for her fresh approach to filmmaking. With a background in acting, she brings emotional depth to her projects. As a director, Lucy focuses on authentic storytelling, collaborating closely with actors to create compelling, character-driven narratives.</p>
-					</li>
-
-					<li><h2>PRODUCER – William Hurst</h2></li>
-					<div className="socials">
-						<a href="https://www.instagram.com/@needleinthehayfilm">
-							<img
-								className="social_icon_ig social_icons"
-								src="assets/images/socials/instagram.png"
-								alt="IG"
-							/>
-						</a>
-						<a href="https://www.imdb.com/name/nm12293482/">
-							<img
-								className="social_icon_imdb social_icons"
-								src="assets/images/socials/imdb-logo.png"
-								alt="IMDb"
-							/>
-						</a>
-						<a href="https://needleinthehayfilm.substack.com/">
-							<img
-								className="social_icon_comedy_mask social_icons"
-								src="assets/images/icons/comedy-mask-icon.png"
-								alt="Project"
-							/>
-						</a>
-					</div>
-
-					<li><img
-						className="headshots"
-						src="assets/images/headshots/william-hurst-producer-headshot.jpg"
-						alt="William Hurst"
-						/>
-						<p>
-William Hurst has Produced several DIY projects. “Needle in the Hay” will be the first for which he has crowdfunded and gathered together an entire, professional crew. His aim as a Producer is to work in such a way so all is taken care of, all fires are put out before they start, and everyone able to do their jobs well.
-</p>
-					</li>
+					<Lucy />
+					<WilliamProducer />
 
 					<li><h2>DIRECTOR OF PHOTOGRAPHY – Amelia Jauregui</h2></li>
 					<li><img
