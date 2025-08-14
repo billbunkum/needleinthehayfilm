@@ -21,11 +21,9 @@ function App() {
 			<h2>A film about Addiction, Suicide, and Friendship</h2>
 			<Teaser />
 			<Navigation />
-			<div className="emailForm">
-				<EmailForm />
-			</div>
 			<Trailer />
 			<Team />		
+			<EmailForm />
 			<Footer />
 		</div>
     </>

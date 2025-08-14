@@ -68,7 +68,7 @@ li {
 	ul.call_to_action li {
 		margin: .2em;
 	}
-a.button {
+a.button , .email_button {
 	padding: 1px 6px;
 	border: 3px outset buttonborder;
 	border-radius: 3px;
@@ -76,10 +76,10 @@ a.button {
 	background-color: grey;
 	text-decoration: none;
 }
-	a.button:hover {
+	a.button:hover , .email_button:hover {
 		background-color: lightgrey;
 	}
-	a.button:active {
+	a.button:active , .email_button:active {
 		background-color: lightgrey;
 	}
 	@media only screen and (max-device-width: 481px) { 
@@ -87,8 +87,23 @@ a.button {
 			flex-direction: column;
 		}
 	}
+.email_button {
+	margin-top: 1em;
+	font-size: 1em;
+	padding: .3em 0 .3em 0;
+	width: 5em;
+}
 
 /* App */
+.email_form {
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+}
+.email_form > label {
+	margin: .3em;
+}
 .main_container {
 	display: flex;
 	flex-direction: column;

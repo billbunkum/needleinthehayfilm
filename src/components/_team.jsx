@@ -7,6 +7,7 @@ import Ken from './people/_ken.jsx'
 import Lucy from './people/_lucy.jsx'
 import Mickey from './people/_mickey.jsx'
 import Oscar from './people/_oscar.jsx'
+import Shanti from './people/_shanti.jsx'
 import WilliamActor from './people/_william_actor.jsx'
 import WilliamProducer from './people/_william_producer.jsx'
 
@@ -17,28 +18,32 @@ function Team() {
 
 				<ul>
 					<li><h1>Our Crew</h1></li>
-
 					<Lucy />
+<hr />
 					<WilliamProducer />
-{/*					<Amelia />*/}
+<hr />
+{/*				<Amelia />	*/}
 					<Ken />
-{/* 			<Shanti />
-					<Niki />
-					<Raiah />
-*/}
-{/*					<Oscar />*/}
+<hr />
+		 			<Shanti />
+<hr />
+{/*				<Niki /> */}
+{/*				<Raiah /> */}
+					<Oscar />	
+<hr />
 					<Diego />
-{/*					<Emma />
-						<Clara />
-						<Ainsley />
-						<Tevin />
-						<Sean />
-*/}
+<hr />
+{/*				<Emma /> */}
+{/*				<Clara /> */}
+{/*				<Ainsley /> */}
+{/*				<Tevin /> */}
+{/*				<Sean /> */}
 					<li><h1>Our Cast</h1></li>
 						<Mickey />
+<hr />
 						<Kelly />
+<hr />
 						<WilliamActor />
-
 				</ul>
 			</div>
 		</>
