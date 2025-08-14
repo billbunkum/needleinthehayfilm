@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import EmailForm from './components/_email_form.jsx'
 import Footer from './components/_footer.jsx'
 import Navigation from './components/_navigation.jsx'
 import Socials from './components/_socials.jsx'
@@ -20,6 +21,9 @@ function App() {
 			<h2>A film about Addiction, Suicide, and Friendship</h2>
 			<Teaser />
 			<Navigation />
+			<div className="emailForm">
+				<EmailForm />
+			</div>
 			<Trailer />
 			<Team />		
 			<Footer />
