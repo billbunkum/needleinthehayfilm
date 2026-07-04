@@ -29,11 +29,12 @@ function WilliamActor() {
 
 					<li><img
 						className="headshots"
-						src="assets/images/headshots/william-hurst-headshot.jpg"
+						src="assets/images/headshots/william-hurst2.jpeg"
 						alt="William Hurst"
 						/>
 						<p>
-William Hurst is a versatile actor and filmmaker based in Los Angeles. With roles ranging from edgy heroes to quirky lovers, William has worked in film, theater, and web series. Also a writer and producer, he continues to develop projects while honing his craft through ongoing training and performance.</p>
+William Hurst is a Los Angeles-based actor, writer, and producer with lead roles in numerous independent short films and experience in theater and musical theater. He has trained extensively through the Professional Artists Workshop under Gary Imhoff and Kelly Meyersfield, with additional study in Michael Chekhov technique, stage combat, stunts, and improvisation. His work spans both performance and content creation, including writing and producing the upcoming short film Needle in the Hay.
+</p>
 					</li>
 	
 		</>

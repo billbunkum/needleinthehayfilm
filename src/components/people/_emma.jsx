@@ -5,7 +5,7 @@ function Emma() {
 			<li><h2>PRODUCTION ASSISTANT - Emma Carter</h2></li>
 			<li><img
 				className="headshots"
-				src="assets/images/icons/contacts.png"
+				src="assets/images/headshots/emma-carter-donut.jpg"
 				alt="Emma Carter"
 				/>
 				<p>

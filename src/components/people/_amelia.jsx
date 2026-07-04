@@ -5,7 +5,7 @@ function Amelia() {
 					<li><h2>DIRECTOR OF PHOTOGRAPHY – Amelia Jauregui</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/icons/contacts.png"
+						src="assets/images/headshots/amelia-jauregui2.jpg"
 						alt="Amelia Jauregui"
 						/>
 						<p>...more about Amelia here!

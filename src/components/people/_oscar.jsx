@@ -5,7 +5,7 @@ function Oscar() {
 			<li><h2>SOUND ENGINEER - Oscar Aramburu</h2></li>
 			<li><img
 				className="headshots"
-				src="assets/images/icons/sound-icon.png"
+				src="assets/images/headshots/oscar-aramburu.jpg"
 				alt="Oscar Aramburu"
 				/>
 				<div className="socials">

@@ -5,7 +5,7 @@ function Niki() {
 					<li><h2>KEY GRIP - Niki Orndahl</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/icons/contacts.png"
+						src="assets/images/headshots/niki-rndahl.jpg"
 						alt="Niki Orndahl"
 						/>
 						<p>

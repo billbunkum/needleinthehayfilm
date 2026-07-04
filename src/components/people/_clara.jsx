@@ -5,7 +5,7 @@ function Clara() {
 					<li><h2>PRODUCTION ASSISTANT - Clara Ungaro</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/icons/contacts.png"
+						src="assets/images/headshots/clara-ungaro.jpg"
 						alt="Clara Ungaro"
 						/>
 						<p>

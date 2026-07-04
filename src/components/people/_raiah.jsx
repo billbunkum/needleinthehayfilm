@@ -5,7 +5,7 @@ function Raiah() {
 						<li><h2>KEY PA - Raiah Sanders</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/icons/contacts.png"
+						src="assets/images/headshots/raiah-sanders.jpg"
 						alt="Raiah Sanders"
 						/>
 						<p>

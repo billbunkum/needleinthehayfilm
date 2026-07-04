@@ -5,7 +5,7 @@ function Ainsley() {
 					<li><h2>BTS - Ainsley Dobbs</h2></li>
 					<li><img
 						className="headshots"
-						src="assets/images/icons/contacts.png"
+						src="assets/images/headshots/ainsley-dobbs.jpg"
 						alt="Ainsley Dobbs"
 						/>
 						<p>
