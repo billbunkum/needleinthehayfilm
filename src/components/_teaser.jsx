@@ -3,7 +3,9 @@ function Teaser() {
 	return (
 		<>
 			<div>
-"When a struggling musician disappears into addiction and depression, his manager is forced to confront the limits of loyalty, friendship, and responsibility."
+<p>
+When a struggling musician disappears into depression and addiction, his manager must confront the limits of loyalty and professionalism.
+</p>
 			</div>
 		</>
 	)

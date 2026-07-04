@@ -18,7 +18,7 @@ function App() {
 		<div className="main_container">
       <h1 id="top">Needle in the Hay</h1>
 			<Socials />
-			<h2>A film about Addiction, Suicide, and Friendship</h2>
+			<h2>"Friendship in the shadow of depression."</h2>
 			<Teaser />
 			<Navigation />
 			<Trailer />
