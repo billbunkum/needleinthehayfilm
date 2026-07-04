@@ -4,7 +4,7 @@ function WilliamActor() {
 		<>
 						<li><h2>William Hurst as BRANDON MOORE</h2></li>
 					<div className="socials">
-						<a href="https://www.instagram.com/@william_r_hurst">
+						<a href="https://www.instagram.com/williamhurstactor">
 							<img
 								className="social_icon_ig social_icons"
 								src="assets/images/socials/instagram.png"
