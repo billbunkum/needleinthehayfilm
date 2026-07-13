@@ -6,6 +6,15 @@ console.log("under construction working.");
   const imdb_url = '';
   const other_url = '';
 
+
+  bio_socials = {
+    'ig': '',
+    'imdb': '',
+    'website': '',
+    'other': '',
+  };
+
+
   return (
     <>
       <div className="socials">

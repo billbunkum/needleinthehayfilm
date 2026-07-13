@@ -3,11 +3,6 @@ function Oscar() {
 	return (
 		<>
 			<li><h2>SOUND ENGINEER - Oscar Aramburu</h2></li>
-			<li><img
-				className="headshots"
-				src="assets/images/headshots/oscar-aramburu.jpg"
-				alt="Oscar Aramburu"
-				/>
 				<div className="socials">
 					<a href="https://www.instagram.com/The.Only.Twist">
 						<img
@@ -24,6 +19,13 @@ function Oscar() {
 						/>
 					</a>
 				</div>
+
+			<li><img
+				className="headshots"
+				src="assets/images/headshots/oscar-aramburu.jpg"
+				alt="Oscar Aramburu"
+				/>
+
 				<p>
 Oscar Aramburu was born a star, but he gave up his dreams to become what the film world needed most: a sound mixer. Nine years into the business, he has been accumulating equipment and experience to help the world of film sound good.
 				</p>
