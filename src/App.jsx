@@ -21,6 +21,11 @@ function App() {
 			<h2>"Friendship in the shadow of depression."</h2>
 			<Teaser />
 			<Navigation />
+      <h2>JOIN the&nbsp;
+        <a href="https://youtu.be/mU6Yx_jWTqI?si=XdICbegGzX6QCAoC"
+          >Premiere + live Q&A Saturday, September 12th at 6PM (PDT)
+        </a>!!!
+      </h2>
 			<Trailer />
 			<Team />		
 			<EmailForm />
