@@ -1,13 +1,7 @@
 import { useState } from 'react'
-import './App.css'
-import EmailForm from './components/_email_form.jsx'
-import Footer from './components/_footer.jsx'
-import Navigation from './components/_navigation.jsx'
-import Socials from './components/_socials.jsx'
-import Trailer from './components/_trailer.jsx'
-import Team from './components/_team.jsx'
-import Teaser from './components/_teaser.jsx'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/home'
+import Posters from './pages/posters'
 //const SOCIALS = import.meta.env.VITE_SOCIALS;
 //const ASSETS = import.meta.env.VITE_ASSETS;
 
@@ -15,22 +9,13 @@ function App() {
 
   return (
     <>
-		<div className="main_container">
-      <h1 id="top">Needle in the Hay</h1>
-			<Socials />
-			<h2>"Friendship in the shadow of depression."</h2>
-			<Teaser />
-			<Navigation />
-      <h2>JOIN the&nbsp;
-        <a href="https://youtu.be/mU6Yx_jWTqI?si=XdICbegGzX6QCAoC"
-          >Premiere + live Q&A Saturday, September 12th at 6PM (PDT)
-        </a>!!!
-      </h2>
-			<Trailer />
-			<Team />		
-			<EmailForm />
-			<Footer />
-		</div>
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/posters" element={<Posters />} />
+				</Routes>
+			</BrowserRouter>
+
     </>
   )
 }
